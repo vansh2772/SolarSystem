@@ -16,10 +16,7 @@ A mobile-responsive, interactive 3D simulation of the solar system built with Th
 1. **Clone or download this repository.**
 2. **Install dependencies** (if using a local server):
    - `npm install` (if you want to use Vite or another dev server)
-3. **Add music file:**
-   - Download the music file from [Pixabay](https://pixabay.com/music/ambient-happy-me-134125/) or use your own.
-   - Place it in the `assets/` folder as `happy-me-134125.mp3` (or update the `src` in `index.html` if you use a different name).
-4. **Run locally:**
+3. **Run locally:**
    - Open `index.html` directly in your browser **or**
    - Run `npx vite` or your preferred static server, then visit the local URL.
 
@@ -27,9 +24,8 @@ A mobile-responsive, interactive 3D simulation of the solar system built with Th
 
 ### Option 1: Open Directly in Your Browser
 1. Download or clone this repository to your computer.
-2. Make sure the `assets/happy-me-134125.mp3` music file is present (see above).
-3. Double-click `index.html` (or right-click and choose "Open with" your browser).
-4. The simulation should load and run!
+2. Double-click `index.html` (or right-click and choose "Open with" your browser).
+3. The simulation should load and run!
 
 ### Option 2: Use a Local Development Server (Recommended for Full Features)
 Some browsers restrict certain features (like audio autoplay or module imports) when opening HTML files directly. Using a local server avoids these issues.
